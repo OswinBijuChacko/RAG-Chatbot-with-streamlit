@@ -15,17 +15,18 @@ User enters a query in the chatbot.The system retrieves the most relevant inform
 ## Installation
 Clone the repository:
 
-*git clone https://github.com/OswinBijuChacko/RAG-Chatbot-with-streamlit.git*
+  *git clone https://github.com/OswinBijuChacko/RAG-Chatbot-with-streamlit.git*
 
-*cd rag-chatbot*
+  *cd rag-chatbot*
 
 Install dependencies:
 
-*pip install -r requirements.txt*
+  *pip install -r requirements.txt*
 
 Run the chatbot:
 
-*streamlit run app.py*\n
+  *streamlit run app.py*
+
 Contributors
 [Oswin Biju Chacko] – Developer
 Feel free to contribute and improve the project! 
