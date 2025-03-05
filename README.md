@@ -1,32 +1,30 @@
-# RAG-Chatbot-with-streamlit
-RAG Chatbot with Streamlit
-This project is a Retrieval-Augmented Generation (RAG) chatbot built using Streamlit, FAISS, and Google Gemini API. It retrieves relevant information from a knowledge base (CSV file) and generates intelligent responses using AI.
+# 🤖 RAG Chatbot with Streamlit  
 
-## Features
-1.Retrieval-Augmented Generation (RAG) for enhanced accuracy
+This is a **Retrieval-Augmented Generation (RAG) chatbot** that uses **FAISS for retrieval** and **Google Gemini API** for intelligent response generation. The chatbot allows users to query a **knowledge base (CSV file)** and receive **context-aware AI-generated answers**.  
 
-2.FAISS-based vector search for efficient document retrieval
+---
 
-3.Google Gemini API for natural language generation
+## 📌 Features  
+- **Retrieval-Augmented Generation (RAG)** for intelligent responses  
+- **FAISS-based vector search** for efficient document retrieval  
+- **Google Gemini API** for generating human-like answers  
+-  **Streamlit UI** with an interactive chatbot  
+-  **Downloadable knowledge base** for transparency  
+- **Fast, scalable, and easy to use**  
 
-4.Streamlit UI with an interactive chatbot and knowledge base viewer
-## How It Works
-User enters a query in the chatbot.The system retrieves the most relevant information from the knowledge base using FAISS.The query and retrieved context are used to generate a response via Google Gemini API.The answer is displayed in the chatbot interface.
-## Installation
-Clone the repository:
+---
 
-  *git clone https://github.com/OswinBijuChacko/RAG-Chatbot-with-streamlit.git*
+## 🛠️ How It Works  
+1. **User enters a query** in the chatbot.  
+2. The system **retrieves relevant context** from the knowledge base using FAISS.  
+3. The **query + retrieved data** are passed to **Google Gemini API**.  
+4. The chatbot **displays the generated answer** interactively.  
 
-  *cd rag-chatbot*
+---
 
-Install dependencies:
+## 🚀 Installation  
 
-  *pip install -r requirements.txt*
-
-Run the chatbot:
-
-  *streamlit run app.py*
-
-Contributors
-[Oswin Biju Chacko] – Developer
-Feel free to contribute and improve the project! 
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-username/rag-chatbot.git
+cd rag-chatbot
