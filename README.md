@@ -25,8 +25,7 @@ Install dependencies:
 
 Run the chatbot:
 
-*streamlit run app.py*
-
+*streamlit run app.py*\n
 Contributors
 [Oswin Biju Chacko] – Developer
 Feel free to contribute and improve the project! 
