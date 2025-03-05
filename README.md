@@ -14,13 +14,19 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot built using Strea
 User enters a query in the chatbot.The system retrieves the most relevant information from the knowledge base using FAISS.The query and retrieved context are used to generate a response via Google Gemini API.The answer is displayed in the chatbot interface.
 ## Installation
 Clone the repository:
+
 *git clone https://github.com/OswinBijuChacko/RAG-Chatbot-with-streamlit.git*
+
 *cd rag-chatbot*
 
 Install dependencies:
+
 *pip install -r requirements.txt*
+
 Run the chatbot:
+
 *streamlit run app.py*
+
 Contributors
 [Oswin Biju Chacko] – Developer
 Feel free to contribute and improve the project! 
